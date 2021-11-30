@@ -1,10 +1,13 @@
-import { FC } from 'react';
+import React, { FC } from 'react';
 
 export interface IButton {
   color: string;
-  big: boolean;
 }
 
-export const Button: FC<IButton> = ({ children, ...props }) => {
-  return <button {...props}>{children}</button>;
+export const Button: FC<IButton> = ({ children, color, ...props }) => {
+  return (
+    <button {...props} style={{ color }}>
+      {children}
+    </button>
+  );
 };
