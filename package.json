@@ -1,6 +1,6 @@
 {
   "name": "ui-ecommerce-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -37,6 +37,7 @@
     "dist"
   ],
   "dependencies": {
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "typescript": "^4.5.2"
   }
 }
