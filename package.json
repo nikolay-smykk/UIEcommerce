@@ -4,13 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pub": "webpack && npm version patch && npm publish"
+    "pub": "webpack && npm version patch && npm publish",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "Smyk",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@storybook/addon-actions": "^6.4.3",
+    "@storybook/addon-essentials": "^6.4.3",
+    "@storybook/addon-links": "^6.4.3",
+    "@storybook/builder-webpack5": "^6.4.3",
+    "@storybook/manager-webpack5": "^6.4.3",
+    "@storybook/react": "^6.4.3",
     "@types/react": "^17.0.37",
+    "babel-loader": "^8.2.3",
     "prettier": "^2.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -25,5 +35,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {}
 }
