@@ -37,6 +37,7 @@
     "dist"
   ],
   "dependencies": {
+    "framer-motion": "^5.3.3",
     "prop-types": "^15.7.2",
     "typescript": "^4.5.2"
   }
